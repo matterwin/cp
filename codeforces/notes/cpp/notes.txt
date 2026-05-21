@@ -1,0 +1,2 @@
+Using memset on containers like std::vector, std::string, std::map, etc., is undefined behavior and should be avoided. 
+These are not just arrays—they manage memory, size, capacity, etc., internally.
