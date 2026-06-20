@@ -1,0 +1,30 @@
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {
+        int len = (int)arr.size();
+
+        vector<int> prefix(len);
+        prefix[0] = arr[0];
+
+        for (int i = 1; i < len; ++i)
+            prefix[i] = prefix[i - 1] ^ arr[i];
+
+        vector<int> ans;
+
+        for (const auto& q : queries) {
+            int left = q[0];
+            int right = q[1];
+
+            if (left == 0)
+                ans.push_back(prefix[right]);
+            else
+                ans.push_back(prefix[right] ^ prefix[left - 1]);
+        }
+
+        return ans;
+    }
+};
+

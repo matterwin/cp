@@ -54,6 +54,8 @@ public:
         best2[initialCurrency] = 1.0;
         q.push(initialCurrency);
 
+		"hello"
+
         while (!q.empty()) 
         {
             string cur = q.front(); q.pop();
