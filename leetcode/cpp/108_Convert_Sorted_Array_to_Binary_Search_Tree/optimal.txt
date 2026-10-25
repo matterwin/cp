@@ -1,0 +1,5 @@
+sol1.cpp
+time: O(n) each of the n elems are visited once
+space: O(logn) recursion stack
+
+binary search to get middle elem to get balanced bst

@@ -1,0 +1,6 @@
+sol1.cpp
+time: O(n)
+space: O(1)
+
+any 2 of the same number xored cancels each other out to 0. 
+The only number who doesn't have a pair stays.

@@ -1,0 +1,6 @@
+sol2.cpp
+
+time: O(n)
+space: O(1)
+
+we simply keep track of the 

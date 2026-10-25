@@ -1,0 +1,6 @@
+sol2.cpp
+
+time: O(n)
+space: O(1)
+
+keep track of the index of where we can do a swap

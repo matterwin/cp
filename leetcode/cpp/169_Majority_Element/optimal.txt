@@ -1,0 +1,5 @@
+sol1.cpp
+time: O(n)
+space: O(1)
+
+boyer-moore majority vote algo

@@ -1,0 +1,5 @@
+sol1.cpp
+time: O(log n)
+space: O(1)
+
+binary search simple

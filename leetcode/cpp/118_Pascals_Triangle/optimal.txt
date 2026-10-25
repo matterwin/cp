@@ -1,0 +1,6 @@
+sol3.cpp
+time: O(n^2) you calc every elem in Pascal's triangle
+space: O(n^2) ret stores all n rows and their elements
+
+std::move here doesn't copy the row; just moves it inside ret
+and buttom-up approach for building triangle.

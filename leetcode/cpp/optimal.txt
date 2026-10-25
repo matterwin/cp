@@ -1,0 +1,5 @@
+sol2.cpp
+time: O(n)
+space: O(1)
+
+uses std::max, std::min to get the intuitive version of max profit.
