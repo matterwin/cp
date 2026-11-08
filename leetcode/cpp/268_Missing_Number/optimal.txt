@@ -1,0 +1,5 @@
+sol4.cpp
+time: O(n)
+space: O(1)
+
+math eq of total_expected - total_real

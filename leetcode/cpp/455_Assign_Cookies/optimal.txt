@@ -1,0 +1,4 @@
+time: O(nlogn)
+space: O(1)
+
+sort both and greedy approach
